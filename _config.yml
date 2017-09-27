@@ -12,6 +12,9 @@ url:
 baseurl:             ''
 paginate:            5
 plugins:             [jekyll-paginate]
+markdown:            redcarpet
+baseurl:             /codata 
+exclude:             ['README.html']
 # paginate_path:       'page:num'
 
 # About/contact
