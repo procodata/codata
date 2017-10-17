@@ -1,8 +1,31 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
-<div class="projects">
+
+
+<h1>
+  Projects
+</h1>
+
+<ul>
+  <li>
+    <a href="{{site.baseurl}}/project/webScrapeDS/webScrape.html">Web Scraping the CyberCoder website for Data Scientist job market</a>
+
+    <map>
+      <!-- <area shape="circle" coords="75,75,75" href="{{site.baseurl}}/project/webScrapeDS/map.html">Job Location -->
+    </map>
+
+    <img src="{{site.baseurl}}/project/webScrapeDS/ds_wordcloud.png" height="500px" width="600px"  style="margin-top: 55px" >
+  </li>
+
+  <li>
+    <a href="{{site.baseurl}}/project/recommendation/recommendation.html"> Recommendation System from Scratch</a>
+    <img src="{{site.baseurl}}/project/recommendation/thumbUp.jpg" height="500" width="600" style="margin-top: 55px">
+  </li>
+</ul>
+
+<!-- <div class="projects">
   {% for project in paginator.project %}
       <div class="project">
         <h1 class="project-title">
@@ -15,7 +38,7 @@ title: Home
       </div>
 
   {% endfor %}
-</div>
+</div> -->
 
 <!-- <div class="posts">
   {% for post in paginator.posts %}
